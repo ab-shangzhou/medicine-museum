@@ -1,6 +1,5 @@
 [[Ju-cloud-clinic-system-reference]]
 = 桔云医馆系统参考文档
-qwfys, migu
 :doctype: book
 :toc:
 :toc-title: 目录
