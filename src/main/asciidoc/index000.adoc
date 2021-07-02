@@ -1,0 +1,81 @@
+== 概述
+
+.红康云医馆平台总体概览图
+[plantuml, diagram00, png]
+....
+@startmindmap
+* 红康云医馆平台
+** 红康医馆患者端
+*** Android
+*** IOS
+*** Weixin applet
+*** Weixin Service
+*** Alipay applet
+
+** 红康医馆企业端
+*** Web
+*** Android
+*** IOS
+** 红康医馆运营端
+*** Web
+@endmindmap
+....
+
+kkkkkkkkkk
+
+.红康云医馆企业用例示图
+[plantuml, diagram01, png]
+....
+@startmindmap
+* 红康云医馆平台
+** 红康医馆企业端
+*** 同仁堂中医馆
+** 红康医馆运营端
+*** 济仁堂中医馆
+*** 保和堂中医馆
+*** 同仁堂中医馆
+*** XXX中医馆
+@endmindmap
+....
+
+
+kkkkkkkkkk
+
+.医馆企业组织结构示意图
+[plantuml, diagram03, png]
+....
+@startmindmap
+
+* 同仁堂中医馆
+** 董事会
+** 馆长
+*** 馆长办公室
+*** 行政部
+*** 财务部
+*** 人事部
+*** 后勤部
+*** 库房部
+*** 庆春分馆
+*** 临平分馆
+**** 临平馆长
+**** 医护部
+**** 诊疗室
+**** 检查室
+**** 检验室
+**** 针炙室
+**** 理疗室
+**** 财务室
+**** 药房
+*** 湖滨分馆
+*** 下沙分馆
+
+
+@endmindmap
+....
+
+
+
+
+
+
+
