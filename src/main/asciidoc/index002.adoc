@@ -1,3 +1,49 @@
-== 概述
+== 中医馆业务模型分析
 
+=== 概念模型分析
+
+==== 概述
+
+
+.桔云医馆企业用例示图
+[plantuml, entity000, png]
+....
+@startuml
+' hide the spot
+hide circle
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "医馆基本信息" as e01 {
+    *医馆ID <PK>
+    --
+    *医馆名称
+     其他属性
+}
+
+entity "药房基本信息" as e02 {
+    *药房ID <PK>
+    --
+    *药房名称
+     医馆ID <FK>
+     其他属性
+}
+
+entity "库房基本信息" as e03 {
+    *库房ID <PK>
+    --
+    *库房名称
+     医馆ID <FK>
+     其他属性
+}
+
+e01 ||..|{ e02
+e01 ||..|{ e03
+@enduml
+....
+
+==== 小结
+
+
+=== 物理模型设计
 

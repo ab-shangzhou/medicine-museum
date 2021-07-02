@@ -1,36 +1,36 @@
 == 概述
 
-.红康云医馆平台总体概览图
+.桔云医馆平台总体概览图
 [plantuml, diagram00, png]
 ....
 @startmindmap
-* 红康云医馆平台
-** 红康医馆患者端
+* 桔云医馆平台
+** 桔云医馆患者端
 *** Android
 *** IOS
 *** Weixin applet
 *** Weixin Service
 *** Alipay applet
 
-** 红康医馆企业端
+** 桔云医馆企业端
 *** Web
 *** Android
 *** IOS
-** 红康医馆运营端
+** 桔云医馆运营端
 *** Web
 @endmindmap
 ....
 
 kkkkkkkkkk
 
-.红康云医馆企业用例示图
+.桔云医馆企业用例示图
 [plantuml, diagram01, png]
 ....
 @startmindmap
-* 红康云医馆平台
-** 红康医馆企业端
+* 桔云医馆平台
+** 桔云医馆企业端
 *** 同仁堂中医馆
-** 红康医馆运营端
+** 桔云医馆运营端
 *** 济仁堂中医馆
 *** 保和堂中医馆
 *** 同仁堂中医馆
