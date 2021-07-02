@@ -7,10 +7,11 @@
 :source-highlighter: prettify
 :numbered:
 
+
 include::index000.adoc[]
 include::index001.adoc[]
-include::index002.adoc[]
-include::index003.adoc[]
-include::index004.adoc[]
-include::index005.adoc[]
-include::index006.adoc[]
+//include::index002.adoc[]
+//include::index003.adoc[]
+//include::index004.adoc[]
+//include::index005.adoc[]
+//include::index006.adoc[]
