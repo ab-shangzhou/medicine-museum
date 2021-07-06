@@ -1,1 +1,80 @@
-== 概述
+== 桥梁模式
+
+=== 我有一个梦想
+
+.服装公司改头换面后的类图
+[plantuml, design-pattern000, png]
+....
+@startuml
+
+class Client {
+}
+
+abstract class Corp{
+    # {abstract} void makeMoney()
+    # {abstract} void produce()
+    # {abstract} void sell()
+}
+
+class HouseCorp extends Corp{
+    + void makeMoney()
+    + void produce()
+    + void sell()
+}
+
+class ClothesCorp extends Corp{
+    + void makeMoney()
+    + void produce()
+    + void sell()
+}
+
+Client -> Corp
+
+@enduml
+....
+
+
+
+.使用快速变化的类图
+[plantuml, design-pattern001, png]
+....
+@startuml
+scale 640 width
+'scale 320 height
+title 使用快速变化的类图
+
+class Client {
+}
+
+class Corp{
+    - Product Product
+    + Corp(Product Product)
+    # {abstract} void makeMoney()
+}
+
+class HouseCorp extends Corp{
+}
+
+class ShanZhaiCorp extends Corp{
+}
+
+abstract class Product{
+    # {abstract} void beProducted()
+    # {abstract} void beSelled()
+}
+
+class House extends Product{
+}
+
+class IPod extends Product{
+}
+
+Client -> Corp
+Corp o-> Product
+
+note top of Corp : 公司
+note top of Product : 产品
+
+@enduml
+....
+
